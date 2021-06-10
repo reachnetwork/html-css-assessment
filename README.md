@@ -46,7 +46,7 @@ Deployed on [Vercel](https://vercel.com)
 |                                               |                                                 |
 | --------------------------------------------- | ----------------------------------------------- |
 | **Mobile View**                             | **Tablet View**                                |
-| ![mobile screenshot](assets/images/mobile-screenshot.png)  | ![tablet screenshot](assets/images/tablet-screenshot.png)   |
+| ![mobile screenshot](assets/images/screenshots/mobile-screenshot.png)  | ![tablet screenshot](assets/images/screenshots/tablet-screenshot.png)   |
 
 ## Core Web Vitals Tests
 
