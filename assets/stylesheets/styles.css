@@ -333,3 +333,53 @@ h4 {
     padding-right: 5%;
   }
 }
+
+@media screen and (min-width: 1025px) {
+  .top-link {
+    justify-content:space-between;
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+  .inputSection {
+    display: flex;
+    align-items: center;
+    max-width: 80%;
+    margin: auto;
+  }
+  .inlineHeader {
+    width: 39%;
+  }
+  h2 {
+    margin: 10px auto;
+    max-width: none;
+    text-align: left;
+  }
+  #searchForm {
+    padding: 0;
+    margin: auto;
+    width: 50%;
+  }
+  .formInput {
+    padding-left: 0;
+    margin-left: 0;
+    width: 59%;
+  }
+  .searchButton {
+    width: 30%;
+    min-width: 130px;
+    margin-right: 0;
+  }
+  .sponsored {
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 1281px) {
+  .linksContainer, .horizontalLine, .inputSection, .cardGridWrapper {
+    max-width: 1800px;
+  }
+  .inputSection {
+    width: 70%;
+    max-width: 1800px;
+  }
+}
