@@ -239,3 +239,42 @@ h4 {
   font-size: 18px;
 }
 /* end of info card section */
+
+/* media queries below this point */
+@media screen and (min-width: 280px) {
+  h1 {
+    font-size: 18px;
+  }
+  .linksDiv p {
+    font-size: 13px;
+  }
+  img {
+    width: 168px;
+    height: 223.07px;
+    overflow: hidden;
+  }
+  .linksContainer {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  }
+}
+
+@media screen and (min-width: 320px) {
+  img {
+    width: 168px;
+    height: auto;
+  }
+  h2 {
+    font-size: 18px;
+  }
+  .linksDiv p {
+    font-size: 15px;
+  }
+  .linksContainer {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  }
+  .top-link {
+    padding: 5%;
+    padding-left: 6.5%;
+    padding-right: 6.5%;
+  }
+}
